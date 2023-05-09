@@ -6,14 +6,14 @@ const mail = nodemailer.createTransport({
     secure: false,
     requireTLS: true,
     auth: {
-    user: 'papagning4@gmail.com',
-    pass: 'aiiwquohnvjwnuhp'
+    user: '',
+    pass: ''
     }
 });
 
 const mailOptions = {
-    from: 'papagning4@gmail.com',
-    to: 'papagning4@gmail.com',
+    from: '',
+    to: '',
     subject: 'Email test',
     text: 'Ceci est un email test envoyé avec Node.js utilisant Nodemailer.'
     };
